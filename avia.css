@@ -1,0 +1,332 @@
+html {
+    background: #E5E5E5;
+}
+body {
+    position: relative;
+    width: 960px;
+    height: 1350px;
+
+    justify-content: center;
+    
+    background: #F3F7FA;
+    margin: auto;
+    box-sizing: border-box;
+    padding: 160px 103px 120px;
+}
+
+.wrapper {
+    display: flex;
+ 
+    flex-grow: 1;
+   
+}
+
+.filter{
+    flex-grow: 0;
+
+    
+    background: #FFFFFF;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    width: 232px;
+    height: 252px;
+    margin-right: 20px;
+}
+
+
+.conteiner {
+    flex-grow: 1;
+
+    display: flex;
+    flex-direction: column;
+
+}
+ 
+.radio{
+    
+    flex-basis: 50px;
+    flex-grow: 0;
+
+    background: grey;
+    margin-bottom: 20px;
+    display: flex;
+
+    background: #FFFFFF;
+   
+    box-sizing: border-box;
+    border-radius: 5px;
+    
+}
+.radio__field {
+    margin: 0;
+    padding: 0;
+    border: none;
+    
+ 
+}
+
+.radio__input{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none; 
+ 
+}
+
+.radio__area1{
+    flex-grow: 0;
+    flex-basis: 50%;
+}
+.radio__area2{
+    flex-grow: 0;
+    flex-basis: 50%;
+}
+.radio__tab {
+    display: flex;
+
+    justify-content: center;
+}
+
+.radio__box1{
+     
+    position: absolute;
+    width: 252px;
+    height: 50px;
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #4A4A4A;
+    border-radius: 5px 0px 0px 5px;
+    
+}
+
+.radio__input:checked + .radio__box1{
+    background: #2196F3;
+    color: #FFFFFF;;
+    border-style: none  ;                   
+}
+.radio__input:not(checked) + .radio__box1{
+    background: #FFFFFF;
+
+
+    border: 1px solid #DFE5EC;   
+}
+
+.radio__box2{
+     
+    position: absolute;
+    width: 252px;
+    height: 50px;
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #4A4A4A;
+    border-radius: 0px 5px 5px 0px;
+    
+}
+
+.radio__input:checked + .radio__box2{
+    background: #2196f3;
+    color: #FFFFFF;
+    border-style: none  ;
+}
+.radio__input:not(checked) + .radio__box2{
+    background: #FFFFFF;
+
+
+    border: 1px solid #DFE5EC;   
+}
+
+.main__logo-container {
+    position: absolute;
+    left: 450px;
+    right: 450px;
+    top: 50px;
+    bottom: 1240;
+  
+}
+.main__logo{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+.ticket{
+    flex-grow: 1;
+  
+    display: block;
+}
+
+
+.filter__name h2{
+   
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 12px;
+    padding: 20px 20px 10px 20px;
+    margin: 0px;
+    
+  
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+
+    color: #4A4A4A;
+}
+
+.check{
+   
+    display: block;
+    padding: 10px 70px 10px 50px;
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 20px;
+
+    color: #4A4A4A;
+
+}
+.check__input{
+    position: absolute;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+.check__box{
+ position: absolute;
+ width: 20px;
+ height: 20px;
+ background-image: url(Form.svg);
+ 
+margin-left: -30px; 
+}
+.check__input:checked + .check__box{
+    background-image: url(Checkbox.svg);
+}
+.check__input:focus + .check__box{
+    background-image: url(Formfocus.svg);
+}
+
+.check__input:checked:focus + .check__box{
+    background-image: url(Checkbox.svg);
+}
+.check:hover {
+    background: #F1FCFF;
+}
+
+
+
+
+
+
+
+
+.container__ticket{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.ticket__item:not(:last-child){
+    margin-bottom: 20px;
+}
+
+.ticket__item{
+    padding: 26px 20px 20px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+.ticket__header {
+    display: flex;
+    margin-bottom: 20px;
+
+}
+.ticket__price {
+    flex-basis: 0;
+    flex-grow: 2;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    
+    display: flex;
+    align-items: center;
+    
+    color: #2196F3;
+}
+.ticket__logo-container{
+    flex-basis: 0;
+    flex-grow: 1;
+    margin-right: 15px;
+}
+.ticket__logo{
+    width: 110px;
+    height: 36px;
+    display: block;
+    
+}
+.ticket__variant-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.ticket__variant{
+    display: flex;
+}
+.ticket__variant:not(:last-child)
+{
+  margin-bottom: 10px;
+}
+.ticket__variant-part
+{
+  flex-grow: 1;
+}
+.ticket__variant-part-label{
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    
+    color: #A0B0B9;
+}
+.ticket__variant-part-value{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    
+    color: #4A4A4A;
+}

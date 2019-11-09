@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Avia Ticket</title>
+    <link rel="stylesheet" type="text/css" href="avia.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="main__logo-container">
+        <img alt="Logo" class="main__logo" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODIiIGhlaWdodD0iODkiIHZpZXdCb3g9IjAgMCA4MiA4OSIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGcgZmlsdGVyPSJ1cmwoI2ZpbHRlcjBfZCkiPgo8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTQxIDcwQzUzLjE1MDMgNzAgNjMgNjAuMTUwMyA2MyA0OEM2MyAzNS44NDk3IDUzLjE1MDMgMjYgNDEgMjZDMjguODQ5NyAyNiAxOSAzNS44NDk3IDE5IDQ4QzE5IDYwLjE1MDMgMjguODQ5NyA3MCA0MSA3MFoiIGZpbGw9ImJsYWNrIiBmaWxsLW9wYWNpdHk9IjAuMDEiLz4KPC9nPgo8ZyBmaWx0ZXI9InVybCgjZmlsdGVyMV9kKSI+CjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNNDEgNzBDNTcuNTY4NSA3MCA3MSA1Ni41Njg1IDcxIDQwQzcxIDIzLjQzMTUgNTcuNTY4NSAxMCA0MSAxMEMyNC40MzE1IDEwIDExIDIzLjQzMTUgMTEgNDBDMTEgNTYuNTY4NSAyNC40MzE1IDcwIDQxIDcwWiIgZmlsbD0iIzIxOTZGMyIvPgo8cGF0aCBkPSJNNjkgNDBDNjkgNTUuNDY0IDU2LjQ2NCA2OCA0MSA2OEMyNS41MzYgNjggMTMgNTUuNDY0IDEzIDQwQzEzIDI0LjUzNiAyNS41MzYgMTIgNDEgMTJDNTYuNDY0IDEyIDY5IDI0LjUzNiA2OSA0MFoiIHN0cm9rZT0iIzQyQTVGNSIgc3Ryb2tlLXdpZHRoPSI0Ii8+CjwvZz4KPG1hc2sgaWQ9Im1hc2swIiBtYXNrLXR5cGU9ImFscGhhIiBtYXNrVW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4PSIxMSIgeT0iMTAiIHdpZHRoPSI2MCIgaGVpZ2h0PSI2MCI+CjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNNDEgNzBDNTcuNTY4NSA3MCA3MSA1Ni41Njg1IDcxIDQwQzcxIDIzLjQzMTUgNTcuNTY4NSAxMCA0MSAxMEMyNC40MzE1IDEwIDExIDIzLjQzMTUgMTEgNDBDMTEgNTYuNTY4NSAyNC40MzE1IDcwIDQxIDcwWiIgZmlsbD0id2hpdGUiLz4KPC9tYXNrPgo8ZyBtYXNrPSJ1cmwoI21hc2swKSI+CjxwYXRoIGQ9Ik0xMy43MTQgMzIuODc1SDY3LjUzNiIgc3Ryb2tlPSIjNDJBNUY1IiBzdHJva2Utd2lkdGg9IjQiIHN0cm9rZS1saW5lY2FwPSJzcXVhcmUiLz4KPHBhdGggZD0iTTEzLjcxNCA0OC42MjVINjcuNTM2IiBzdHJva2U9IiM0MkE1RjUiIHN0cm9rZS13aWR0aD0iNCIgc3Ryb2tlLWxpbmVjYXA9InNxdWFyZSIvPgo8cGF0aCBkPSJNNDAuMjUgMTQuNUM0MC4yNSAxNC41IDMwLjI4NzggMjYuMDc3NSAzMC41MDM1IDQwLjc1QzMwLjcxOTEgNTUuNDIyNSA0MC4yNSA2NS41IDQwLjI1IDY1LjUiIHN0cm9rZT0iIzQyQTVGNSIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPHBhdGggZD0iTTQxIDE0LjVDNDEgMTQuNSA1MC45NjIyIDI2LjA3NzUgNTAuNzQ2NSA0MC43NUM1MC41MzA5IDU1LjQyMjUgNDEgNjUuNSA0MSA2NS41IiBzdHJva2U9IiM0MkE1RjUiIHN0cm9rZS13aWR0aD0iNCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CjwvZz4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik01MS4xOTQ2IDI5LjAyNzhDNTEuMzk0NiAyOC45MTIzIDUxLjYxNTEgMjguODQwNiA1MS44NDU2IDI4LjgyNjFDNTIuODYyMSAyOC43NjIxIDU1Ljc5OCAyOC42NzggNTYuNDM0NyAyOS43ODA5QzU3LjA3MTUgMzAuODgzOCA1NS41Mjk4IDMzLjM4MzcgNTQuOTY2IDM0LjIzMTRDNTQuODM4MyAzNC40MjM1IDU0LjY2NiAzNC41Nzg0IDU0LjQ2NjIgMzQuNjkzOEw0OC4zOTA0IDM4LjIwMTZMNDkuMjM0MyA1NS4zMDJDNDkuMjQ2MSA1NS41NDE0IDQ5LjEyNSA1NS43Njc5IDQ4LjkxOTMgNTUuODkxMUw0Ny42NyA1Ni42MzkzQzQ3LjUwNTUgNTYuNzM3OSA0Ny4zMDU3IDU2Ljc1ODYgNDcuMTI0NCA1Ni42OTZMNDYuMTc3NiA1Ni4zNjlDNDYuMDE5IDU2LjMxNDMgNDUuODg3NyA1Ni4yMDAyIDQ1LjgxMTQgNTYuMDUwOEwzOS4zNTM0IDQzLjQxOTJMMzIuOTg0MyA0Ny4wOTY0TDMyLjI5NzQgNTEuNzY3OEMzMi4yNDk4IDUyLjA5MTIgMzEuOTY5MyA1Mi4zMjg4IDMxLjY0MjYgNTIuMzIyNkwzMS4xNDQ2IDUyLjMxMzJDMzAuODkyNyA1Mi4zMDg0IDMwLjY2NjMgNTIuMTU4MyAzMC41NjM4IDUxLjkyODJMMjguNzc0MSA0Ny45MTIyQzI3LjU0MzkgNDcuOTUxNSAyNi4zODkxIDQ3LjgzMDYgMjYuMDc5MiA0Ny4yOTRDMjUuNzY5NyA0Ni43NTc5IDI2LjI0MjkgNDUuNzAyMSAyNi44OTMgNDQuNjYxMUwyNC4zMjk1IDQxLjEzMDFDMjQuMTgxNSA0MC45MjYzIDI0LjE2NDggNDAuNjU1MiAyNC4yODY2IDQwLjQzNDdMMjQuNTI3NCAzOS45OTg3QzI0LjY4NTQgMzkuNzEyNiAyNS4wMzE0IDM5LjU4ODYgMjUuMzM1MiAzOS43MDlMMjkuNjk3NCA0MS40MzkyTDM2LjA3NzkgMzcuNzU1NUwyOC40MTkyIDI1LjkyNjdDMjguMzI4IDI1Ljc4NTggMjguMjk0OCAyNS42MTUyIDI4LjMyNjcgMjUuNDUwNEwyOC41MTcgMjQuNDY2OUMyOC41NTM0IDI0LjI3ODYgMjguNjcxMiAyNC4xMTYgMjguODM4OSAyNC4wMjI4TDMwLjExMTUgMjMuMzE1QzMwLjMyMSAyMy4xOTg0IDMwLjU3NzcgMjMuMjA2OCAzMC43NzkxIDIzLjMzNjhMNDUuMDc2OCAzMi41NTk5TDUxLjE5NDYgMjkuMDI3OFoiIGZpbGw9IndoaXRlIi8+CjxtYXNrIGlkPSJtYXNrMSIgbWFzay10eXBlPSJhbHBoYSIgbWFza1VuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeD0iMjQiIHk9IjIzIiB3aWR0aD0iMzMiIGhlaWdodD0iMzQiPgo8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTUxLjE5NDYgMjkuMDI3OEM1MS4zOTQ2IDI4LjkxMjMgNTEuNjE1MSAyOC44NDA2IDUxLjg0NTYgMjguODI2MUM1Mi44NjIxIDI4Ljc2MjEgNTUuNzk4IDI4LjY3OCA1Ni40MzQ3IDI5Ljc4MDlDNTcuMDcxNSAzMC44ODM4IDU1LjUyOTggMzMuMzgzNyA1NC45NjYgMzQuMjMxNEM1NC44MzgzIDM0LjQyMzUgNTQuNjY2IDM0LjU3ODQgNTQuNDY2MiAzNC42OTM4TDQ4LjM5MDQgMzguMjAxNkw0OS4yMzQzIDU1LjMwMkM0OS4yNDYxIDU1LjU0MTQgNDkuMTI1IDU1Ljc2NzkgNDguOTE5MyA1NS44OTExTDQ3LjY3IDU2LjYzOTNDNDcuNTA1NSA1Ni43Mzc5IDQ3LjMwNTcgNTYuNzU4NiA0Ny4xMjQ0IDU2LjY5Nkw0Ni4xNzc2IDU2LjM2OUM0Ni4wMTkgNTYuMzE0MyA0NS44ODc3IDU2LjIwMDIgNDUuODExNCA1Ni4wNTA4TDM5LjM1MzQgNDMuNDE5MkwzMi45ODQzIDQ3LjA5NjRMMzIuMjk3NCA1MS43Njc4QzMyLjI0OTggNTIuMDkxMiAzMS45NjkzIDUyLjMyODggMzEuNjQyNiA1Mi4zMjI2TDMxLjE0NDYgNTIuMzEzMkMzMC44OTI3IDUyLjMwODQgMzAuNjY2MyA1Mi4xNTgzIDMwLjU2MzggNTEuOTI4MkwyOC43NzQxIDQ3LjkxMjJDMjcuNTQzOSA0Ny45NTE1IDI2LjM4OTEgNDcuODMwNiAyNi4wNzkyIDQ3LjI5NEMyNS43Njk3IDQ2Ljc1NzkgMjYuMjQyOSA0NS43MDIxIDI2Ljg5MyA0NC42NjExTDI0LjMyOTUgNDEuMTMwMUMyNC4xODE1IDQwLjkyNjMgMjQuMTY0OCA0MC42NTUyIDI0LjI4NjYgNDAuNDM0N0wyNC41Mjc0IDM5Ljk5ODdDMjQuNjg1NCAzOS43MTI2IDI1LjAzMTQgMzkuNTg4NiAyNS4zMzUyIDM5LjcwOUwyOS42OTc0IDQxLjQzOTJMMzYuMDc3OSAzNy43NTU1TDI4LjQxOTIgMjUuOTI2N0MyOC4zMjggMjUuNzg1OCAyOC4yOTQ4IDI1LjYxNTIgMjguMzI2NyAyNS40NTA0TDI4LjUxNyAyNC40NjY5QzI4LjU1MzQgMjQuMjc4NiAyOC42NzEyIDI0LjExNiAyOC44Mzg5IDI0LjAyMjhMMzAuMTExNSAyMy4zMTVDMzAuMzIxIDIzLjE5ODQgMzAuNTc3NyAyMy4yMDY4IDMwLjc3OTEgMjMuMzM2OEw0NS4wNzY4IDMyLjU1OTlMNTEuMTk0NiAyOS4wMjc4WiIgZmlsbD0id2hpdGUiLz4KPC9tYXNrPgo8ZyBtYXNrPSJ1cmwoI21hc2sxKSI+CjxyZWN0IHg9IjQ1LjUzNiIgeT0iMzAuNzgzOSIgd2lkdGg9IjEuMzA4NTMiIGhlaWdodD0iMTIuNDA4NCIgdHJhbnNmb3JtPSJyb3RhdGUoNjAgNDUuNTM2IDMwLjc4MzkpIiBmaWxsPSIjRUJFQ0YyIi8+CjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNNDguOTE5MyA1NS44OTExQzQ5LjEyNSA1NS43Njc5IDQ5LjI0NjEgNTUuNTQxNSA0OS4yMzQzIDU1LjMwMkw0OC4zNjI4IDM3LjY0MjZMMzkuMTI2NCA0Mi45NzUyTDQ1LjgxMTQgNTYuMDUwOEM0NS44ODc3IDU2LjIwMDIgNDYuMDE5IDU2LjMxNDMgNDYuMTc3NiA1Ni4zNjlMNDcuMTI0NCA1Ni42OTZDNDcuMzA1NyA1Ni43NTg3IDQ3LjUwNTUgNTYuNzM3OSA0Ny42NyA1Ni42MzkzTDQ4LjkxOTMgNTUuODkxMVoiIGZpbGw9IiNERUUxRTMiLz4KPHBhdGggb3BhY2l0eT0iMC40IiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTI4LjgzNjYgNDcuODAxM0wyOC43NDc2IDQ3Ljg1MjdMMzAuNTYzOCA1MS45MjgyQzMwLjY2NjQgNTIuMTU4NCAzMC44OTI3IDUyLjMwODQgMzEuMTQ0NiA1Mi4zMTMyTDMxLjY0MjYgNTIuMzIyNkMzMS45NjkzIDUyLjMyODggMzIuMjQ5OCA1Mi4wOTEyIDMyLjI5NzQgNTEuNzY3OEwzMy4wMjMgNDYuODMzNEwzMi41NiA0Ny4xMDA3QzMyLjQxNjcgNDcuMTgzNCAzMi4yNjI2IDQ3LjI0NTIgMzIuMTAxMSA0Ny4yODEzQzMxLjU1MDkgNDcuNDA0MSAzMC4xNTQ3IDQ3LjY5NTEgMjguODM2NiA0Ny44MDEzWiIgZmlsbD0iI0RFRTFFMyIvPgo8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTM5LjI0ODIgNDMuMjEzNEw0OC4zNzc2IDM3Ljk0MjZMNDguNDc2OSAzOS45NTM5TDQwLjk1NiA0Ni41NTM4TDM5LjI0ODIgNDMuMjEzNFoiIGZpbGw9IiNDNUM2Q0MiLz4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik01Ny40ODIyIDMyLjk1MjRMMjcuNjkxMyA1MC4xNTIzQzI3LjY5MTMgNTAuMTUyMyAyNi44MTIyIDQ4LjU2MzYgMjYuMDc5MiA0Ny4yOTM5QzI2LjA3MDMgNDcuMjc4NiAyNi4wNjIgNDcuMjYzIDI2LjA1NDEgNDcuMjQ3M0MyNy40MDU2IDQ3LjM0NSAzMC4xMjY4IDQ3LjIzNTEgMzIuNzY2IDQ1LjcxMTRMNTMuMzkwNiAzMy44MDM4QzU1LjY4MjIgMzIuNDgwNyA1Ni4yNDM1IDMwLjc2NzQgNTYuNTUyNiAzMC4wMzA5QzU3LjAzMTEgMzEuMzE2IDU3LjQ4MjIgMzIuOTUyNCA1Ny40ODIyIDMyLjk1MjRaIiBmaWxsPSIjREVFMUUzIi8+CjwvZz4KPGRlZnM+CjxmaWx0ZXIgaWQ9ImZpbHRlcjBfZCIgeD0iOCIgeT0iMjMiIHdpZHRoPSI2NiIgaGVpZ2h0PSI2NiIgZmlsdGVyVW5pdHM9InVzZXJTcGFjZU9uVXNlIiBjb2xvci1pbnRlcnBvbGF0aW9uLWZpbHRlcnM9InNSR0IiPgo8ZmVGbG9vZCBmbG9vZC1vcGFjaXR5PSIwIiByZXN1bHQ9IkJhY2tncm91bmRJbWFnZUZpeCIvPgo8ZmVDb2xvck1hdHJpeCBpbj0iU291cmNlQWxwaGEiIHR5cGU9Im1hdHJpeCIgdmFsdWVzPSIwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAxMjcgMCIvPgo8ZmVPZmZzZXQgZHk9IjgiLz4KPGZlR2F1c3NpYW5CbHVyIHN0ZERldmlhdGlvbj0iNS41Ii8+CjxmZUNvbG9yTWF0cml4IHR5cGU9Im1hdHJpeCIgdmFsdWVzPSIwIDAgMCAwIDAuMjE1Njg2IDAgMCAwIDAgMC40MDc4NDMgMCAwIDAgMCAwLjU1Njg2MyAwIDAgMCAwLjI1IDAiLz4KPGZlQmxlbmQgbW9kZT0ibm9ybWFsIiBpbjI9IkJhY2tncm91bmRJbWFnZUZpeCIgcmVzdWx0PSJlZmZlY3QxX2Ryb3BTaGFkb3ciLz4KPGZlQmxlbmQgbW9kZT0ibm9ybWFsIiBpbj0iU291cmNlR3JhcGhpYyIgaW4yPSJlZmZlY3QxX2Ryb3BTaGFkb3ciIHJlc3VsdD0ic2hhcGUiLz4KPC9maWx0ZXI+CjxmaWx0ZXIgaWQ9ImZpbHRlcjFfZCIgeD0iMCIgeT0iMCIgd2lkdGg9IjgyIiBoZWlnaHQ9IjgyIiBmaWx0ZXJVbml0cz0idXNlclNwYWNlT25Vc2UiIGNvbG9yLWludGVycG9sYXRpb24tZmlsdGVycz0ic1JHQiI+CjxmZUZsb29kIGZsb29kLW9wYWNpdHk9IjAiIHJlc3VsdD0iQmFja2dyb3VuZEltYWdlRml4Ii8+CjxmZUNvbG9yTWF0cml4IGluPSJTb3VyY2VBbHBoYSIgdHlwZT0ibWF0cml4IiB2YWx1ZXM9IjAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDEyNyAwIi8+CjxmZU9mZnNldCBkeT0iMSIvPgo8ZmVHYXVzc2lhbkJsdXIgc3RkRGV2aWF0aW9uPSI1LjUiLz4KPGZlQ29sb3JNYXRyaXggdHlwZT0ibWF0cml4IiB2YWx1ZXM9IjAgMCAwIDAgMC4yMTU2ODYgMCAwIDAgMCAwLjQwNzg0MyAwIDAgMCAwIDAuNTU2ODYzIDAgMCAwIDAuMyAwIi8+CjxmZUJsZW5kIG1vZGU9Im5vcm1hbCIgaW4yPSJCYWNrZ3JvdW5kSW1hZ2VGaXgiIHJlc3VsdD0iZWZmZWN0MV9kcm9wU2hhZG93Ii8+CjxmZUJsZW5kIG1vZGU9Im5vcm1hbCIgaW49IlNvdXJjZUdyYXBoaWMiIGluMj0iZWZmZWN0MV9kcm9wU2hhZG93IiByZXN1bHQ9InNoYXBlIi8+CjwvZmlsdGVyPgo8L2RlZnM+Cjwvc3ZnPgo=">
+    </div>
+
+    <div class="wrapper">
+        <div class="filter"><div class="filter__name"><h2>Количество пересадок</h2></div>
+            <div class="filter__check">
+                <label class="check option">
+                    <input class="check__input" type="checkbox">
+                    <span class="check__box"></span>Все
+                </label>
+                <label class="check option">
+                    <input class="check__input" type="checkbox">
+                    <span class="check__box"></span>Без пересадок
+                </label>
+                <label class="check option">
+                    <input class="check__input" type="checkbox">
+                    <span class="check__box"></span>1 пересадка
+                </label>
+                <label class="check option">
+                    <input class="check__input" type="checkbox">
+                    <span class="check__box"></span>2 пересадки
+                </label>
+                <label class="check option">
+                    <input class="check__input" type="checkbox">
+                    <span class="check__box"></span>3 пересадки
+                </label>
+            </div>
+        </div>
+        <div class="conteiner">
+            <div class="radio">
+    
+                    <div class="radio__area1">
+                            <label class="radio__tab">
+                                    <input class="radio__input" name="preference" type="radio" checked><span class="radio__box1">самый дешевый</span>
+                                    
+                                </label>
+                    </div>
+                    <div class="radio__area2">
+                            <label class="radio__tab">
+                                    <input class="radio__input" name="preference" type="radio"><span class="radio__box2">самый быстрый</span>
+                                    
+                                </label>
+                    </div>
+                   
+                
+            </div>
+            <div class="ticket">
+                <ul class="container__ticket">
+                        <li class="ticket__item">
+                                <div class="ticket__header">
+                                    <div class="ticket__price">
+                                        13 400 P
+                                    </div>
+                                    <div class="ticket__logo-container">
+                                        <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTEwIiBoZWlnaHQ9IjM2IiB2aWV3Qm94PSIwIDAgMTEwIDM2IiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4KPHJlY3Qgd2lkdGg9IjExMCIgaGVpZ2h0PSIzNiIgZmlsbD0idXJsKCNwYXR0ZXJuMCkiLz4KPGRlZnM+CjxwYXR0ZXJuIGlkPSJwYXR0ZXJuMCIgcGF0dGVybkNvbnRlbnRVbml0cz0ib2JqZWN0Qm91bmRpbmdCb3giIHdpZHRoPSIxIiBoZWlnaHQ9IjEiPgo8dXNlIHhsaW5rOmhyZWY9IiNpbWFnZTAiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAgLTAuMDU1NTU1Nikgc2NhbGUoMC4wMDUwNTA1MSAwLjAxNTQzMjEpIi8+CjwvcGF0dGVybj4KPGltYWdlIGlkPSJpbWFnZTAiIHdpZHRoPSIxOTgiIGhlaWdodD0iNzIiIHhsaW5rOmhyZWY9ImRhdGE6aW1hZ2UvcG5nO2Jhc2U2NCxpVkJPUncwS0dnb0FBQUFOU1VoRVVnQUFBTVlBQUFCSUNBTUFBQUNhLzNySEFBQUNURkJNVkVVQUFBQnlkM3B5ZDNweWQzcHlkM3B5ZDNweWQzcHlkM3B5ZDNweWQzcTYwektkcjFGeWQzcHlkM3B5ZDNweWQzcTYwekp5ZDNweWQzcTYweks2MHpKeWQzcHlkM3B5ZDNweWQzcHlkM3B5ZDNweWQzcHlkM3B5ZDNxNjB6SzYwekp5ZDNweWQzcHlkM3B5ZDNweWQzcHlkM3B5ZDNxNjB6SzYwekp5ZDNxNjB6SnlkM3B5ZDNweWQzcHlkM3E2MHpLNjB6SnlkM3B5ZDNweWQzcHlkM3B5ZDNweWQzcTYweks2MHpLNjB6SnlkM3B5ZDNweWQzcTYwekp5ZDNxNjB6SzYweks2MHpKeWQzcHlkM3B5ZDNweWQzcHlkM3B5ZDNweWQzcHlkM3B5ZDNxNjB6SzYwekp5ZDNxNjB6SzYweks2MHpKeWQzcTYweks2MHpKeWQzcHlkM3B5ZDNweWQzcHlkM3B5ZDNweWQzcHlkM3E2MHpLNjB6SzYweks2MHpLNjB6SzYweks2MHpLNjB6SzYweks2MHpLNjB6SzYweks2MHpLNjB6SnlkM3B5ZDNweWQzcHlkM3B5ZDNweWQzcHlkM3B5ZDNweWQzcTYweks2MHpKeWQzcTYweks2MHpLNjB6SzYweks2MHpLNjB6SnlkM3E2MHpKeWQzcHlkM3E2MHpLNjB6SzYweks2MHpLNjB6SzYweks2MHpLNjB6SnlkM3E2MHpLNjB6SzYweks2MHpLNjB6SzYwekp5ZDNyLy8vL2M2WmE3MURUKy92bSsxanovLy82OTFUclg1b1hxOHNEQTEwSDcvZkhPNEd5ODFUZnorTnZhNkpIeDl0UGU2cHJKM1Z2ajdhclI0bmJIM0ZmNi9PNzArTjdNMzJiazdxM0Yyay96OTluVDQzM2E1NDdnNjZIdzljL0MyRWpQNFcvQjEwVHA4YnZ1OU1qOC9mWDUrK3pHMjFYVjVJRG44TGY0Kytuczg4VEYybEhoN0tURDJVckszbURTNDNybTc3SDMrdWIyK2VQWTVvbEdZTHNDQUFBQWpuUlNUbE1BeFcxN3B4QUVMM0xydHdHMUFwS2hDdUExMmY3K0VvWTcvUWI1Und4eEJETG5KT2tLR3ZVZDYrLzdWL0xZSGVqdVhtS1Q1Uk5CRk0rYzFTYTAzMDFnQjdzcmpqajNnN3NwSDNpRU9Kc2lvZlJwTE56TWl1T3YwTTRpbjhGMXNHdFZRTWVUZm1QVitJbU50OWxUbHFzV2RzaS84VnB4TStTa0YyWW9DVVhldzFHcUVVNnJEUTlLcEVzeWVoQXhlUDZHSkFBQUI1MUpSRUZVZUY3dDJtZFhGTmthaHVGSHdBWnNRYWJwZHFDQklTaVNWSklncUVRQllWUk1neURtbkVWSGp4aFFKenB6MGx0TkRPYWM0K1Njemg4N3ZmZXU2dHBkVlRTeStpeFhjUmJYbDFyclhXM2gzYnQzN2NZbEptVEtsQ25PbkozbkRtN2JVcEZZVVRGanpkWWQ1eE1tWThQNlBYV0ZKTnUvcjNMSFpVd3FpL2Z1Mms5bTdzTEtWZW1USjJKck40MGxmOXRPSnlhRDJwb3FONFd3LytOVzJOLzZPamVObytpOVd0aWJjMGNoalMvL3M3T3dzOXJkK2ZSR3FsYkJ2aExXdU9rTmRWK3diMFVkdmJtMW45cDJMV2dpY25mQ2p0SjN1MmxDdXRmRGhtcmNORUVWaTJFNy84NmxDYXRNaDgwazdLS0pjMzhFbTlsT3dRYUdoNGRmWEZmZEpIcDgzYUNYL0JJL2daWGlXVXlwQTdwSU5sbUhZSE5MMlRRVmlHSFhHSVN0Tlpja28zZSs5Y24rSlBxUHorQU9NUWVjTVBQT1VaamthdWltc1VrVWdzMk9aZE1ZNEJDN3prVFlEcEt1NzlsZnZtRERSTHhMZHBXWTNCeVlIVkdFS09kYnpzZ3Bvb0NocjN3Ry9iL1NiOGJaelQ3aVZzSWs3cEFpeEhhKzVZdzlGSEJOVk1nZUVZMFlaNzBrNUM2R1VmUjhSUlh6ZGpQU04xQkFyNmxpOEJXOTFQYktOMWZVQlJvaXdWMERvelpGY3pnT21tYVhYK2RZR1V0ZGZrc1JwZ3Y1cEJtOTRoT2VQTCtyZXVXZjNsWDllbFZrakpDbUxoM0IwaGF4N1gxSlljcGhZSjN4UDFKcFdvekJwME5rcGUrRnlMaE5tcE90Q0ZiQUFqSWIrQ2ZyUzJnY1hqK0hmbzNMU2kzM3FoblNWSHVWSzZZMFBxTFpDVjFhZGVUUjB1UFZhZEE1b2t2YVZzYzNIVmtvWHZmNVBncjRXbVQ4UXBhMHJmNWdnQUpxRU1UeEljdllqQlhzTXFmRnVEY2kyZldEbmd6L3EvS3lUSHNqZ2wwWG9YNmF3a1cxUU5VU255ZEdlY3V6SVhnTE9oUWhwVDBEZnVmWGttYmdnY2o0amF6OW9qMkJkWlVJa2pHUFphU2lSR0VpckRNeU5pb2hNbHdiRmRXU2hlQlMzMUVDTHJyQU9FcVQ5Vm5zRVFBMUZQRFlKOXdnUzBPRFlxTS9KdDBHQklsbkZSdDcwTVczN3lhdlZjYVNUVXFJakx6RFNzQk1CL3lxR3hWSkp1K0k4Y2l6ZVVuQUFRcDRyUjV6MzM1SFZuN1huc0FTOStlUXpPYnZaRHdRRjhVeVBFbFdHY21lVUJteWxISUFTL2s5a3p1T0hWdkFoOVBTZ0xLTDdPNHpTOHBUSS9sS3JmQmlCc2w3USsyNFJ4WWVhQ2U0N0IrUUZBZCtlRFZmOU5XbURDR2w0OHZsWFdObHhFWm1SRWRrS2t3cEVEZUxyOEdSSG1EdSsrd2o2NGtBeXZuOStGbzNzMWMyUmlPUmRILzR0STRiWkhLdlg1emcxMGkyQXpvSDN3Tkw1ckoxNGU5U1pyWmxSa2RxSElBeE1tSWI0SmZFTjlrbEw1YW1zT3dDTUhGdC9QNE84WFlkbHo3SEplZ20zWGY5Z1ZQdnhVdGl6STI5Rk9RY2RDNytLVzREYzVSbGVFcXNNdVprQWRZWitoK1BtOG1HQzlKd25EOFZ2T0N5RzFsVEF3cDRUaEtmVG0veG13N3pzMGdZL0g2SVpBTS84dkY5UTk0L0VlQXNWWmg2TUEwS2M4SnJrZEdFVUJrWjRONWx3OE5wNHRFZGxhUzZLTXBkS1Fxdm5CVlQzdUlBUjdLK096N2RDTWtlR29lbWI0ZGRpL2k5bldDOGZFTW1aMWhrdUVKbWxBVm5YRlJNWm1IdUNXMlFISHVpS2N1VVFTOWZTQjFYYnB1My8vZGpaNndUcDFhcWNFeGhWcHN6WXJORFppQW9ZM2FtWWpJTmlGNGtEVktPVGpkbVVGL3ZGYjNqL2oyOTd4cysrZk1hQmR1RGdCT0tXV2FaS1dOaldWZ1o0amlxYjArV0p1MDlLQ1NEMno5S0hZOUo5Vno2dFUrMkhacUdGTVhNVTJMS2VHZjJCRExpK0c1WUVTOTczd3ZBVVI5NUtIT2UvbE1TeVdqZ2tUaXU1YTlYUTAvRUNmNHpHWnlDWnJWaTVVTnZXQm00Sko1ZWxxWkhGeXhmb3ZCTzFKSFp6MCswa1A1UjR1NktxcHRrZEJxcWhabUtsWlNNOERLYTFLTklTSnZ1MTROSXYrTmxJdVZkRDdzbkRwS1Y1ejdWVStKK0VCbXZ5T2h5OEFhLytEZmRBajZKRHkvRHhmWkFjb1FUVFBiaE9YNFJXTUJtQmVCYTV2UHZ4WHZKU3AvV2NVc3NqemdYQjhtb0NwcE5DaE1KWFl6WTVIUER5bkR3eVBrbERnQmw3WHg5bTdHWm40bGRZS3BUMks3SCt2MWs2YWFjOFV4dWtwMkJLa2xoNW1WQjE1bkh0MTl4V0JsdzhWcFBSM3pUWnQ2dGJBWWFHdm1OMXJtYWs1cm1pM2Z2Y2lKWitrUEtHUDFMWk53am83MVF6UkpielFHZG8xMmRoWldCZGNtS2JFRUw0SWdYQXc5cllFRXRRQ1ZaVXYvbXo2UVQvS2MrTWxoN0hrSkxwdnJna3hWNCtBcEZoNWVCWXRhcjZlRHI3VmlkSWg5T0RRQyt5Q2NMZC90RnhtdnBCSDlLUmx0cXdXbmZUcnNnU3hNL3Z5M01ETlJIYVFmRW5MWXVjTjdpRHp5SzBCalZETC9hS2hKR1g1Tm05SlphOFJWZmdGN3V4alVhOC9CYkdNMHNSYkFzUHUwVTF4YWdpMTJiSGVBYzlXeGFCblNLRjZFc21vR1F6VjhhQjg2eHNMaTBmVmw3VzBHWkU1b2VWOFRtWmN1V0hTM1J2aHdlMEg0VDd4OFpHYjdxOTJqa3ZuWnMzS1pRaXM3Q1BscUxpTG50TSt1bGtIYkRUbllUYzhjbjB6NVNvZVMyd2s3TzgrVzRZcXE0TlVRaEhYVENWcmFxLzVZbUcvejZJWVZXdFJqMmNybUM2T0ZQY3NUMUg2N1NPTnluWURlcmlvajZCZ1ordnlFTUQxeWpjWjFKaCsxc3A0bEtQQXY3U1YvanBnazVlUnAybExCdFloVmZ3SjcrdFlYZVhQNHBKMnpxazgvb1RlVis5UC93SDZvS2Q4TE8wczhWMGZqY00zSmdjNnQyMFhqVzdrbUE3U1ZzTDZSUThtZXNkMkl5eUZtWlMyTngxMzJhanNraVordStmS3VHazJjdTFHSXlTVjkxWUZjUnlmS3JQdDY3R0pOUGJldmYzNnZjVXJHaHU3dWlZdHZLbXRPVHNXSEtsQ240TDFaMUw5MW80dURmQUFBQUFFbEZUa1N1UW1DQyIvPgo8L2RlZnM+Cjwvc3ZnPgo=" alt="S7 Logo" class="ticket__logo">
+                                    </div>
+                                </div>
+                                <ul class="ticket__variant-list">
+                                    <li class="ticket__variant">
+                                        <div class="ticket__variant-part">
+                                            <div class="ticket__variant-part-label">MOW – HKT</div>
+                                            <div class="ticket__variant-part-value">10:45 – 08:00</div>
+                                        </div>
+                                        <div class="ticket__variant-part">
+                                            <div class="ticket__variant-part-label">В пути</div>
+                                            <div class="ticket__variant-part-value">21ч 15м</div>
+                                        </div>
+                                        <div class="ticket__variant-part">
+                                            <div class="ticket__variant-part-label">2 пересадки</div>
+                                            <div class="ticket__variant-part-value">HKG, JNB</div>
+                                        </div>
+                                    </li>
+                                    <li class="ticket__variant">
+                                        <div class="ticket__variant-part">
+                                                <div class="ticket__variant-part-label">MOW – HKT</div>
+                                                <div class="ticket__variant-part-value">10:45 – 08:00</div>
+                                            </div>
+                                            <div class="ticket__variant-part">
+                                                <div class="ticket__variant-part-label">В пути</div>
+                                                <div class="ticket__variant-part-value">21ч 15м</div>
+                                            </div>
+                                            <div class="ticket__variant-part">
+                                                <div class="ticket__variant-part-label">2 пересадки</div>
+                                                <div class="ticket__variant-part-value">HKG, JNB</div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </li>
+                        <li class="ticket__item">
+                                <div class="ticket__header">
+                                    <div class="ticket__price">
+                                        13 400 P
+                                    </div>
+                                    <div class="ticket__logo-container">
+                                        <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTEwIiBoZWlnaHQ9IjM2IiB2aWV3Qm94PSIwIDAgMTEwIDM2IiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4KPHJlY3Qgd2lkdGg9IjExMCIgaGVpZ2h0PSIzNiIgZmlsbD0idXJsKCNwYXR0ZXJuMCkiLz4KPGRlZnM+CjxwYXR0ZXJuIGlkPSJwYXR0ZXJuMCIgcGF0dGVybkNvbnRlbnRVbml0cz0ib2JqZWN0Qm91bmRpbmdCb3giIHdpZHRoPSIxIiBoZWlnaHQ9IjEiPgo8dXNlIHhsaW5rOmhyZWY9IiNpbWFnZTAiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAgLTAuMDU1NTU1Nikgc2NhbGUoMC4wMDUwNTA1MSAwLjAxNTQzMjEpIi8+CjwvcGF0dGVybj4KPGltYWdlIGlkPSJpbWFnZTAiIHdpZHRoPSIxOTgiIGhlaWdodD0iNzIiIHhsaW5rOmhyZWY9ImRhdGE6aW1hZ2UvcG5nO2Jhc2U2NCxpVkJPUncwS0dnb0FBQUFOU1VoRVVnQUFBTVlBQUFCSUNBTUFBQUNhLzNySEFBQUNURkJNVkVVQUFBQnlkM3B5ZDNweWQzcHlkM3B5ZDNweWQzcHlkM3B5ZDNweWQzcTYwektkcjFGeWQzcHlkM3B5ZDNweWQzcTYwekp5ZDNweWQzcTYweks2MHpKeWQzcHlkM3B5ZDNweWQzcHlkM3B5ZDNweWQzcHlkM3B5ZDNxNjB6SzYwekp5ZDNweWQzcHlkM3B5ZDNweWQzcHlkM3B5ZDNxNjB6SzYwekp5ZDNxNjB6SnlkM3B5ZDNweWQzcHlkM3E2MHpLNjB6SnlkM3B5ZDNweWQzcHlkM3B5ZDNweWQzcTYweks2MHpLNjB6SnlkM3B5ZDNweWQzcTYwekp5ZDNxNjB6SzYweks2MHpKeWQzcHlkM3B5ZDNweWQzcHlkM3B5ZDNweWQzcHlkM3B5ZDNxNjB6SzYwekp5ZDNxNjB6SzYweks2MHpKeWQzcTYweks2MHpKeWQzcHlkM3B5ZDNweWQzcHlkM3B5ZDNweWQzcHlkM3E2MHpLNjB6SzYweks2MHpLNjB6SzYweks2MHpLNjB6SzYweks2MHpLNjB6SzYweks2MHpLNjB6SnlkM3B5ZDNweWQzcHlkM3B5ZDNweWQzcHlkM3B5ZDNweWQzcTYweks2MHpKeWQzcTYweks2MHpLNjB6SzYweks2MHpLNjB6SnlkM3E2MHpKeWQzcHlkM3E2MHpLNjB6SzYweks2MHpLNjB6SzYweks2MHpLNjB6SnlkM3E2MHpLNjB6SzYweks2MHpLNjB6SzYwekp5ZDNyLy8vL2M2WmE3MURUKy92bSsxanovLy82OTFUclg1b1hxOHNEQTEwSDcvZkhPNEd5ODFUZnorTnZhNkpIeDl0UGU2cHJKM1Z2ajdhclI0bmJIM0ZmNi9PNzArTjdNMzJiazdxM0Yyay96OTluVDQzM2E1NDdnNjZIdzljL0MyRWpQNFcvQjEwVHA4YnZ1OU1qOC9mWDUrK3pHMjFYVjVJRG44TGY0Kytuczg4VEYybEhoN0tURDJVckszbURTNDNybTc3SDMrdWIyK2VQWTVvbEdZTHNDQUFBQWpuUlNUbE1BeFcxN3B4QUVMM0xydHdHMUFwS2hDdUExMmY3K0VvWTcvUWI1Und4eEJETG5KT2tLR3ZVZDYrLzdWL0xZSGVqdVhtS1Q1Uk5CRk0rYzFTYTAzMDFnQjdzcmpqajNnN3NwSDNpRU9Kc2lvZlJwTE56TWl1T3YwTTRpbjhGMXNHdFZRTWVUZm1QVitJbU50OWxUbHFzV2RzaS84VnB4TStTa0YyWW9DVVhldzFHcUVVNnJEUTlLcEVzeWVoQXhlUDZHSkFBQUI1MUpSRUZVZUY3dDJtZFhGTmthaHVGSHdBWnNRYWJwZHFDQklTaVNWSklncUVRQllWUk1neURtbkVWSGp4aFFKenB6MGx0TkRPYWM0K1Njemg4N3ZmZXU2dHBkVlRTeStpeFhjUmJYbDFyclhXM2gzYnQzN2NZbEptVEtsQ25PbkozbkRtN2JVcEZZVVRGanpkWWQ1eE1tWThQNlBYV0ZKTnUvcjNMSFpVd3FpL2Z1Mms5bTdzTEtWZW1USjJKck40MGxmOXRPSnlhRDJwb3FONFd3LytOVzJOLzZPamVObytpOVd0aWJjMGNoalMvL3M3T3dzOXJkK2ZSR3FsYkJ2aExXdU9rTmRWK3diMFVkdmJtMW45cDJMV2dpY25mQ2p0SjN1MmxDdXRmRGhtcmNORUVWaTJFNy84NmxDYXRNaDgwazdLS0pjMzhFbTlsT3dRYUdoNGRmWEZmZEpIcDgzYUNYL0JJL2daWGlXVXlwQTdwSU5sbUhZSE5MMlRRVmlHSFhHSVN0Tlpja28zZSs5Y24rSlBxUHorQU9NUWVjTVBQT1VaamthdWltc1VrVWdzMk9aZE1ZNEJDN3prVFlEcEt1NzlsZnZtRERSTHhMZHBXWTNCeVlIVkdFS09kYnpzZ3Bvb0NocjN3Ry9iL1NiOGJaelQ3aVZzSWs3cEFpeEhhKzVZdzlGSEJOVk1nZUVZMFlaNzBrNUM2R1VmUjhSUlh6ZGpQU04xQkFyNmxpOEJXOTFQYktOMWZVQlJvaXdWMERvelpGY3pnT21tYVhYK2RZR1V0ZGZrc1JwZ3Y1cEJtOTRoT2VQTCtyZXVXZjNsWDllbFZrakpDbUxoM0IwaGF4N1gxSlljcGhZSjN4UDFKcFdvekJwME5rcGUrRnlMaE5tcE90Q0ZiQUFqSWIrQ2ZyUzJnY1hqK0hmbzNMU2kzM3FoblNWSHVWSzZZMFBxTFpDVjFhZGVUUjB1UFZhZEE1b2t2YVZzYzNIVmtvWHZmNVBncjRXbVQ4UXBhMHJmNWdnQUpxRU1UeEljdllqQlhzTXFmRnVEY2kyZldEbmd6L3EvS3lUSHNqZ2wwWG9YNmF3a1cxUU5VU255ZEdlY3V6SVhnTE9oUWhwVDBEZnVmWGttYmdnY2o0amF6OW9qMkJkWlVJa2pHUFphU2lSR0VpckRNeU5pb2hNbHdiRmRXU2hlQlMzMUVDTHJyQU9FcVQ5Vm5zRVFBMUZQRFlKOXdnUzBPRFlxTS9KdDBHQklsbkZSdDcwTVczN3lhdlZjYVNUVXFJakx6RFNzQk1CL3lxR3hWSkp1K0k4Y2l6ZVVuQUFRcDRyUjV6MzM1SFZuN1huc0FTOStlUXpPYnZaRHdRRjhVeVBFbFdHY21lVUJteWxISUFTL2s5a3p1T0hWdkFoOVBTZ0xLTDdPNHpTOHBUSS9sS3JmQmlCc2w3USsyNFJ4WWVhQ2U0N0IrUUZBZCtlRFZmOU5XbURDR2w0OHZsWFdObHhFWm1SRWRrS2t3cEVEZUxyOEdSSG1EdSsrd2o2NGtBeXZuOStGbzNzMWMyUmlPUmRILzR0STRiWkhLdlg1emcxMGkyQXpvSDN3Tkw1ckoxNGU5U1pyWmxSa2RxSElBeE1tSWI0SmZFTjlrbEw1YW1zT3dDTUhGdC9QNE84WFlkbHo3SEplZ20zWGY5Z1ZQdnhVdGl6STI5Rk9RY2RDNytLVzREYzVSbGVFcXNNdVprQWRZWitoK1BtOG1HQzlKd25EOFZ2T0N5RzFsVEF3cDRUaEtmVG0veG13N3pzMGdZL0g2SVpBTS84dkY5UTk0L0VlQXNWWmg2TUEwS2M4SnJrZEdFVUJrWjRONWx3OE5wNHRFZGxhUzZLTXBkS1Fxdm5CVlQzdUlBUjdLK096N2RDTWtlR29lbWI0ZGRpL2k5bldDOGZFTW1aMWhrdUVKbWxBVm5YRlJNWm1IdUNXMlFISHVpS2N1VVFTOWZTQjFYYnB1My8vZGpaNndUcDFhcWNFeGhWcHN6WXJORFppQW9ZM2FtWWpJTmlGNGtEVktPVGpkbVVGL3ZGYjNqL2oyOTd4cysrZk1hQmR1RGdCT0tXV2FaS1dOaldWZ1o0amlxYjArV0p1MDlLQ1NEMno5S0hZOUo5Vno2dFUrMkhacUdGTVhNVTJMS2VHZjJCRExpK0c1WUVTOTczd3ZBVVI5NUtIT2UvbE1TeVdqZ2tUaXU1YTlYUTAvRUNmNHpHWnlDWnJWaTVVTnZXQm00Sko1ZWxxWkhGeXhmb3ZCTzFKSFp6MCswa1A1UjR1NktxcHRrZEJxcWhabUtsWlNNOERLYTFLTklTSnZ1MTROSXYrTmxJdVZkRDdzbkRwS1Y1ejdWVStKK0VCbXZ5T2h5OEFhLytEZmRBajZKRHkvRHhmWkFjb1FUVFBiaE9YNFJXTUJtQmVCYTV2UHZ4WHZKU3AvV2NVc3NqemdYQjhtb0NwcE5DaE1KWFl6WTVIUER5bkR3eVBrbERnQmw3WHg5bTdHWm40bGRZS3BUMks3SCt2MWs2YWFjOFV4dWtwMkJLa2xoNW1WQjE1bkh0MTl4V0JsdzhWcFBSM3pUWnQ2dGJBWWFHdm1OMXJtYWs1cm1pM2Z2Y2lKWitrUEtHUDFMWk53am83MVF6UkpielFHZG8xMmRoWldCZGNtS2JFRUw0SWdYQXc5cllFRXRRQ1ZaVXYvbXo2UVQvS2MrTWxoN0hrSkxwdnJna3hWNCtBcEZoNWVCWXRhcjZlRHI3VmlkSWg5T0RRQyt5Q2NMZC90RnhtdnBCSDlLUmx0cXdXbmZUcnNnU3hNL3Z5M01ETlJIYVFmRW5MWXVjTjdpRHp5SzBCalZETC9hS2hKR1g1Tm05SlphOFJWZmdGN3V4alVhOC9CYkdNMHNSYkFzUHUwVTF4YWdpMTJiSGVBYzlXeGFCblNLRjZFc21vR1F6VjhhQjg2eHNMaTBmVmw3VzBHWkU1b2VWOFRtWmN1V0hTM1J2aHdlMEg0VDd4OFpHYjdxOTJqa3ZuWnMzS1pRaXM3Q1BscUxpTG50TSt1bGtIYkRUbllUYzhjbjB6NVNvZVMyd2s3TzgrVzRZcXE0TlVRaEhYVENWcmFxLzVZbUcvejZJWVZXdFJqMmNybUM2T0ZQY3NUMUg2N1NPTnluWURlcmlvajZCZ1ordnlFTUQxeWpjWjFKaCsxc3A0bEtQQXY3U1YvanBnazVlUnAybExCdFloVmZ3SjcrdFlYZVhQNHBKMnpxazgvb1RlVis5UC93SDZvS2Q4TE8wczhWMGZqY00zSmdjNnQyMFhqVzdrbUE3U1ZzTDZSUThtZXNkMkl5eUZtWlMyTngxMzJhanNraVordStmS3VHazJjdTFHSXlTVjkxWUZjUnlmS3JQdDY3R0pOUGJldmYzNnZjVXJHaHU3dWlZdHZLbXRPVHNXSEtsQ240TDFaMUw5MW80dURmQUFBQUFFbEZUa1N1UW1DQyIvPgo8L2RlZnM+Cjwvc3ZnPgo=" alt="S7 Logo" class="ticket__logo">
+                                    </div>
+                                </div>
+                                <ul class="ticket__variant-list">
+                                    <li class="ticket__variant">
+                                        <div class="ticket__variant-part">
+                                            <div class="ticket__variant-part-label">MOW – HKT</div>
+                                            <div class="ticket__variant-part-value">10:45 – 08:00</div>
+                                        </div>
+                                        <div class="ticket__variant-part">
+                                            <div class="ticket__variant-part-label">В пути</div>
+                                            <div class="ticket__variant-part-value">21ч 15м</div>
+                                        </div>
+                                        <div class="ticket__variant-part">
+                                            <div class="ticket__variant-part-label">2 пересадки</div>
+                                            <div class="ticket__variant-part-value">HKG, JNB</div>
+                                        </div>
+                                    </li>
+                                    <li class="ticket__variant">
+                                        <div class="ticket__variant-part">
+                                                <div class="ticket__variant-part-label">MOW – HKT</div>
+                                                <div class="ticket__variant-part-value">10:45 – 08:00</div>
+                                            </div>
+                                            <div class="ticket__variant-part">
+                                                <div class="ticket__variant-part-label">В пути</div>
+                                                <div class="ticket__variant-part-value">21ч 15м</div>
+                                            </div>
+                                            <div class="ticket__variant-part">
+                                                <div class="ticket__variant-part-label">2 пересадки</div>
+                                                <div class="ticket__variant-part-value">HKG, JNB</div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </li>
+                        <li class="ticket__item">
+                                <div class="ticket__header">
+                                    <div class="ticket__price">
+                                        13 400 P
+                                    </div>
+                                    <div class="ticket__logo-container">
+                                        <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTEwIiBoZWlnaHQ9IjM2IiB2aWV3Qm94PSIwIDAgMTEwIDM2IiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4KPHJlY3Qgd2lkdGg9IjExMCIgaGVpZ2h0PSIzNiIgZmlsbD0idXJsKCNwYXR0ZXJuMCkiLz4KPGRlZnM+CjxwYXR0ZXJuIGlkPSJwYXR0ZXJuMCIgcGF0dGVybkNvbnRlbnRVbml0cz0ib2JqZWN0Qm91bmRpbmdCb3giIHdpZHRoPSIxIiBoZWlnaHQ9IjEiPgo8dXNlIHhsaW5rOmhyZWY9IiNpbWFnZTAiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAgLTAuMDU1NTU1Nikgc2NhbGUoMC4wMDUwNTA1MSAwLjAxNTQzMjEpIi8+CjwvcGF0dGVybj4KPGltYWdlIGlkPSJpbWFnZTAiIHdpZHRoPSIxOTgiIGhlaWdodD0iNzIiIHhsaW5rOmhyZWY9ImRhdGE6aW1hZ2UvcG5nO2Jhc2U2NCxpVkJPUncwS0dnb0FBQUFOU1VoRVVnQUFBTVlBQUFCSUNBTUFBQUNhLzNySEFBQUNURkJNVkVVQUFBQnlkM3B5ZDNweWQzcHlkM3B5ZDNweWQzcHlkM3B5ZDNweWQzcTYwektkcjFGeWQzcHlkM3B5ZDNweWQzcTYwekp5ZDNweWQzcTYweks2MHpKeWQzcHlkM3B5ZDNweWQzcHlkM3B5ZDNweWQzcHlkM3B5ZDNxNjB6SzYwekp5ZDNweWQzcHlkM3B5ZDNweWQzcHlkM3B5ZDNxNjB6SzYwekp5ZDNxNjB6SnlkM3B5ZDNweWQzcHlkM3E2MHpLNjB6SnlkM3B5ZDNweWQzcHlkM3B5ZDNweWQzcTYweks2MHpLNjB6SnlkM3B5ZDNweWQzcTYwekp5ZDNxNjB6SzYweks2MHpKeWQzcHlkM3B5ZDNweWQzcHlkM3B5ZDNweWQzcHlkM3B5ZDNxNjB6SzYwekp5ZDNxNjB6SzYweks2MHpKeWQzcTYweks2MHpKeWQzcHlkM3B5ZDNweWQzcHlkM3B5ZDNweWQzcHlkM3E2MHpLNjB6SzYweks2MHpLNjB6SzYweks2MHpLNjB6SzYweks2MHpLNjB6SzYweks2MHpLNjB6SnlkM3B5ZDNweWQzcHlkM3B5ZDNweWQzcHlkM3B5ZDNweWQzcTYweks2MHpKeWQzcTYweks2MHpLNjB6SzYweks2MHpLNjB6SnlkM3E2MHpKeWQzcHlkM3E2MHpLNjB6SzYweks2MHpLNjB6SzYweks2MHpLNjB6SnlkM3E2MHpLNjB6SzYweks2MHpLNjB6SzYwekp5ZDNyLy8vL2M2WmE3MURUKy92bSsxanovLy82OTFUclg1b1hxOHNEQTEwSDcvZkhPNEd5ODFUZnorTnZhNkpIeDl0UGU2cHJKM1Z2ajdhclI0bmJIM0ZmNi9PNzArTjdNMzJiazdxM0Yyay96OTluVDQzM2E1NDdnNjZIdzljL0MyRWpQNFcvQjEwVHA4YnZ1OU1qOC9mWDUrK3pHMjFYVjVJRG44TGY0Kytuczg4VEYybEhoN0tURDJVckszbURTNDNybTc3SDMrdWIyK2VQWTVvbEdZTHNDQUFBQWpuUlNUbE1BeFcxN3B4QUVMM0xydHdHMUFwS2hDdUExMmY3K0VvWTcvUWI1Und4eEJETG5KT2tLR3ZVZDYrLzdWL0xZSGVqdVhtS1Q1Uk5CRk0rYzFTYTAzMDFnQjdzcmpqajNnN3NwSDNpRU9Kc2lvZlJwTE56TWl1T3YwTTRpbjhGMXNHdFZRTWVUZm1QVitJbU50OWxUbHFzV2RzaS84VnB4TStTa0YyWW9DVVhldzFHcUVVNnJEUTlLcEVzeWVoQXhlUDZHSkFBQUI1MUpSRUZVZUY3dDJtZFhGTmthaHVGSHdBWnNRYWJwZHFDQklTaVNWSklncUVRQllWUk1neURtbkVWSGp4aFFKenB6MGx0TkRPYWM0K1Njemg4N3ZmZXU2dHBkVlRTeStpeFhjUmJYbDFyclhXM2gzYnQzN2NZbEptVEtsQ25PbkozbkRtN2JVcEZZVVRGanpkWWQ1eE1tWThQNlBYV0ZKTnUvcjNMSFpVd3FpL2Z1Mms5bTdzTEtWZW1USjJKck40MGxmOXRPSnlhRDJwb3FONFd3LytOVzJOLzZPamVObytpOVd0aWJjMGNoalMvL3M3T3dzOXJkK2ZSR3FsYkJ2aExXdU9rTmRWK3diMFVkdmJtMW45cDJMV2dpY25mQ2p0SjN1MmxDdXRmRGhtcmNORUVWaTJFNy84NmxDYXRNaDgwazdLS0pjMzhFbTlsT3dRYUdoNGRmWEZmZEpIcDgzYUNYL0JJL2daWGlXVXlwQTdwSU5sbUhZSE5MMlRRVmlHSFhHSVN0Tlpja28zZSs5Y24rSlBxUHorQU9NUWVjTVBQT1VaamthdWltc1VrVWdzMk9aZE1ZNEJDN3prVFlEcEt1NzlsZnZtRERSTHhMZHBXWTNCeVlIVkdFS09kYnpzZ3Bvb0NocjN3Ry9iL1NiOGJaelQ3aVZzSWs3cEFpeEhhKzVZdzlGSEJOVk1nZUVZMFlaNzBrNUM2R1VmUjhSUlh6ZGpQU04xQkFyNmxpOEJXOTFQYktOMWZVQlJvaXdWMERvelpGY3pnT21tYVhYK2RZR1V0ZGZrc1JwZ3Y1cEJtOTRoT2VQTCtyZXVXZjNsWDllbFZrakpDbUxoM0IwaGF4N1gxSlljcGhZSjN4UDFKcFdvekJwME5rcGUrRnlMaE5tcE90Q0ZiQUFqSWIrQ2ZyUzJnY1hqK0hmbzNMU2kzM3FoblNWSHVWSzZZMFBxTFpDVjFhZGVUUjB1UFZhZEE1b2t2YVZzYzNIVmtvWHZmNVBncjRXbVQ4UXBhMHJmNWdnQUpxRU1UeEljdllqQlhzTXFmRnVEY2kyZldEbmd6L3EvS3lUSHNqZ2wwWG9YNmF3a1cxUU5VU255ZEdlY3V6SVhnTE9oUWhwVDBEZnVmWGttYmdnY2o0amF6OW9qMkJkWlVJa2pHUFphU2lSR0VpckRNeU5pb2hNbHdiRmRXU2hlQlMzMUVDTHJyQU9FcVQ5Vm5zRVFBMUZQRFlKOXdnUzBPRFlxTS9KdDBHQklsbkZSdDcwTVczN3lhdlZjYVNUVXFJakx6RFNzQk1CL3lxR3hWSkp1K0k4Y2l6ZVVuQUFRcDRyUjV6MzM1SFZuN1huc0FTOStlUXpPYnZaRHdRRjhVeVBFbFdHY21lVUJteWxISUFTL2s5a3p1T0hWdkFoOVBTZ0xLTDdPNHpTOHBUSS9sS3JmQmlCc2w3USsyNFJ4WWVhQ2U0N0IrUUZBZCtlRFZmOU5XbURDR2w0OHZsWFdObHhFWm1SRWRrS2t3cEVEZUxyOEdSSG1EdSsrd2o2NGtBeXZuOStGbzNzMWMyUmlPUmRILzR0STRiWkhLdlg1emcxMGkyQXpvSDN3Tkw1ckoxNGU5U1pyWmxSa2RxSElBeE1tSWI0SmZFTjlrbEw1YW1zT3dDTUhGdC9QNE84WFlkbHo3SEplZ20zWGY5Z1ZQdnhVdGl6STI5Rk9RY2RDNytLVzREYzVSbGVFcXNNdVprQWRZWitoK1BtOG1HQzlKd25EOFZ2T0N5RzFsVEF3cDRUaEtmVG0veG13N3pzMGdZL0g2SVpBTS84dkY5UTk0L0VlQXNWWmg2TUEwS2M4SnJrZEdFVUJrWjRONWx3OE5wNHRFZGxhUzZLTXBkS1Fxdm5CVlQzdUlBUjdLK096N2RDTWtlR29lbWI0ZGRpL2k5bldDOGZFTW1aMWhrdUVKbWxBVm5YRlJNWm1IdUNXMlFISHVpS2N1VVFTOWZTQjFYYnB1My8vZGpaNndUcDFhcWNFeGhWcHN6WXJORFppQW9ZM2FtWWpJTmlGNGtEVktPVGpkbVVGL3ZGYjNqL2oyOTd4cysrZk1hQmR1RGdCT0tXV2FaS1dOaldWZ1o0amlxYjArV0p1MDlLQ1NEMno5S0hZOUo5Vno2dFUrMkhacUdGTVhNVTJMS2VHZjJCRExpK0c1WUVTOTczd3ZBVVI5NUtIT2UvbE1TeVdqZ2tUaXU1YTlYUTAvRUNmNHpHWnlDWnJWaTVVTnZXQm00Sko1ZWxxWkhGeXhmb3ZCTzFKSFp6MCswa1A1UjR1NktxcHRrZEJxcWhabUtsWlNNOERLYTFLTklTSnZ1MTROSXYrTmxJdVZkRDdzbkRwS1Y1ejdWVStKK0VCbXZ5T2h5OEFhLytEZmRBajZKRHkvRHhmWkFjb1FUVFBiaE9YNFJXTUJtQmVCYTV2UHZ4WHZKU3AvV2NVc3NqemdYQjhtb0NwcE5DaE1KWFl6WTVIUER5bkR3eVBrbERnQmw3WHg5bTdHWm40bGRZS3BUMks3SCt2MWs2YWFjOFV4dWtwMkJLa2xoNW1WQjE1bkh0MTl4V0JsdzhWcFBSM3pUWnQ2dGJBWWFHdm1OMXJtYWs1cm1pM2Z2Y2lKWitrUEtHUDFMWk53am83MVF6UkpielFHZG8xMmRoWldCZGNtS2JFRUw0SWdYQXc5cllFRXRRQ1ZaVXYvbXo2UVQvS2MrTWxoN0hrSkxwdnJna3hWNCtBcEZoNWVCWXRhcjZlRHI3VmlkSWg5T0RRQyt5Q2NMZC90RnhtdnBCSDlLUmx0cXdXbmZUcnNnU3hNL3Z5M01ETlJIYVFmRW5MWXVjTjdpRHp5SzBCalZETC9hS2hKR1g1Tm05SlphOFJWZmdGN3V4alVhOC9CYkdNMHNSYkFzUHUwVTF4YWdpMTJiSGVBYzlXeGFCblNLRjZFc21vR1F6VjhhQjg2eHNMaTBmVmw3VzBHWkU1b2VWOFRtWmN1V0hTM1J2aHdlMEg0VDd4OFpHYjdxOTJqa3ZuWnMzS1pRaXM3Q1BscUxpTG50TSt1bGtIYkRUbllUYzhjbjB6NVNvZVMyd2s3TzgrVzRZcXE0TlVRaEhYVENWcmFxLzVZbUcvejZJWVZXdFJqMmNybUM2T0ZQY3NUMUg2N1NPTnluWURlcmlvajZCZ1ordnlFTUQxeWpjWjFKaCsxc3A0bEtQQXY3U1YvanBnazVlUnAybExCdFloVmZ3SjcrdFlYZVhQNHBKMnpxazgvb1RlVis5UC93SDZvS2Q4TE8wczhWMGZqY00zSmdjNnQyMFhqVzdrbUE3U1ZzTDZSUThtZXNkMkl5eUZtWlMyTngxMzJhanNraVordStmS3VHazJjdTFHSXlTVjkxWUZjUnlmS3JQdDY3R0pOUGJldmYzNnZjVXJHaHU3dWlZdHZLbXRPVHNXSEtsQ240TDFaMUw5MW80dURmQUFBQUFFbEZUa1N1UW1DQyIvPgo8L2RlZnM+Cjwvc3ZnPgo=" alt="S7 Logo" class="ticket__logo">
+                                    </div>
+                                </div>
+                                <ul class="ticket__variant-list">
+                                    <li class="ticket__variant">
+                                        <div class="ticket__variant-part">
+                                            <div class="ticket__variant-part-label">MOW – HKT</div>
+                                            <div class="ticket__variant-part-value">10:45 – 08:00</div>
+                                        </div>
+                                        <div class="ticket__variant-part">
+                                            <div class="ticket__variant-part-label">В пути</div>
+                                            <div class="ticket__variant-part-value">21ч 15м</div>
+                                        </div>
+                                        <div class="ticket__variant-part">
+                                            <div class="ticket__variant-part-label">2 пересадки</div>
+                                            <div class="ticket__variant-part-value">HKG, JNB</div>
+                                        </div>
+                                    </li>
+                                    <li class="ticket__variant">
+                                        <div class="ticket__variant-part">
+                                                <div class="ticket__variant-part-label">MOW – HKT</div>
+                                                <div class="ticket__variant-part-value">10:45 – 08:00</div>
+                                            </div>
+                                            <div class="ticket__variant-part">
+                                                <div class="ticket__variant-part-label">В пути</div>
+                                                <div class="ticket__variant-part-value">21ч 15м</div>
+                                            </div>
+                                            <div class="ticket__variant-part">
+                                                <div class="ticket__variant-part-label">2 пересадки</div>
+                                                <div class="ticket__variant-part-value">HKG, JNB</div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </li>
+                        <li class="ticket__item">
+                                <div class="ticket__header">
+                                    <div class="ticket__price">
+                                        13 400 P
+                                    </div>
+                                    <div class="ticket__logo-container">
+                                        <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTEwIiBoZWlnaHQ9IjM2IiB2aWV3Qm94PSIwIDAgMTEwIDM2IiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4KPHJlY3Qgd2lkdGg9IjExMCIgaGVpZ2h0PSIzNiIgZmlsbD0idXJsKCNwYXR0ZXJuMCkiLz4KPGRlZnM+CjxwYXR0ZXJuIGlkPSJwYXR0ZXJuMCIgcGF0dGVybkNvbnRlbnRVbml0cz0ib2JqZWN0Qm91bmRpbmdCb3giIHdpZHRoPSIxIiBoZWlnaHQ9IjEiPgo8dXNlIHhsaW5rOmhyZWY9IiNpbWFnZTAiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAgLTAuMDU1NTU1Nikgc2NhbGUoMC4wMDUwNTA1MSAwLjAxNTQzMjEpIi8+CjwvcGF0dGVybj4KPGltYWdlIGlkPSJpbWFnZTAiIHdpZHRoPSIxOTgiIGhlaWdodD0iNzIiIHhsaW5rOmhyZWY9ImRhdGE6aW1hZ2UvcG5nO2Jhc2U2NCxpVkJPUncwS0dnb0FBQUFOU1VoRVVnQUFBTVlBQUFCSUNBTUFBQUNhLzNySEFBQUNURkJNVkVVQUFBQnlkM3B5ZDNweWQzcHlkM3B5ZDNweWQzcHlkM3B5ZDNweWQzcTYwektkcjFGeWQzcHlkM3B5ZDNweWQzcTYwekp5ZDNweWQzcTYweks2MHpKeWQzcHlkM3B5ZDNweWQzcHlkM3B5ZDNweWQzcHlkM3B5ZDNxNjB6SzYwekp5ZDNweWQzcHlkM3B5ZDNweWQzcHlkM3B5ZDNxNjB6SzYwekp5ZDNxNjB6SnlkM3B5ZDNweWQzcHlkM3E2MHpLNjB6SnlkM3B5ZDNweWQzcHlkM3B5ZDNweWQzcTYweks2MHpLNjB6SnlkM3B5ZDNweWQzcTYwekp5ZDNxNjB6SzYweks2MHpKeWQzcHlkM3B5ZDNweWQzcHlkM3B5ZDNweWQzcHlkM3B5ZDNxNjB6SzYwekp5ZDNxNjB6SzYweks2MHpKeWQzcTYweks2MHpKeWQzcHlkM3B5ZDNweWQzcHlkM3B5ZDNweWQzcHlkM3E2MHpLNjB6SzYweks2MHpLNjB6SzYweks2MHpLNjB6SzYweks2MHpLNjB6SzYweks2MHpLNjB6SnlkM3B5ZDNweWQzcHlkM3B5ZDNweWQzcHlkM3B5ZDNweWQzcTYweks2MHpKeWQzcTYweks2MHpLNjB6SzYweks2MHpLNjB6SnlkM3E2MHpKeWQzcHlkM3E2MHpLNjB6SzYweks2MHpLNjB6SzYweks2MHpLNjB6SnlkM3E2MHpLNjB6SzYweks2MHpLNjB6SzYwekp5ZDNyLy8vL2M2WmE3MURUKy92bSsxanovLy82OTFUclg1b1hxOHNEQTEwSDcvZkhPNEd5ODFUZnorTnZhNkpIeDl0UGU2cHJKM1Z2ajdhclI0bmJIM0ZmNi9PNzArTjdNMzJiazdxM0Yyay96OTluVDQzM2E1NDdnNjZIdzljL0MyRWpQNFcvQjEwVHA4YnZ1OU1qOC9mWDUrK3pHMjFYVjVJRG44TGY0Kytuczg4VEYybEhoN0tURDJVckszbURTNDNybTc3SDMrdWIyK2VQWTVvbEdZTHNDQUFBQWpuUlNUbE1BeFcxN3B4QUVMM0xydHdHMUFwS2hDdUExMmY3K0VvWTcvUWI1Und4eEJETG5KT2tLR3ZVZDYrLzdWL0xZSGVqdVhtS1Q1Uk5CRk0rYzFTYTAzMDFnQjdzcmpqajNnN3NwSDNpRU9Kc2lvZlJwTE56TWl1T3YwTTRpbjhGMXNHdFZRTWVUZm1QVitJbU50OWxUbHFzV2RzaS84VnB4TStTa0YyWW9DVVhldzFHcUVVNnJEUTlLcEVzeWVoQXhlUDZHSkFBQUI1MUpSRUZVZUY3dDJtZFhGTmthaHVGSHdBWnNRYWJwZHFDQklTaVNWSklncUVRQllWUk1neURtbkVWSGp4aFFKenB6MGx0TkRPYWM0K1Njemg4N3ZmZXU2dHBkVlRTeStpeFhjUmJYbDFyclhXM2gzYnQzN2NZbEptVEtsQ25PbkozbkRtN2JVcEZZVVRGanpkWWQ1eE1tWThQNlBYV0ZKTnUvcjNMSFpVd3FpL2Z1Mms5bTdzTEtWZW1USjJKck40MGxmOXRPSnlhRDJwb3FONFd3LytOVzJOLzZPamVObytpOVd0aWJjMGNoalMvL3M3T3dzOXJkK2ZSR3FsYkJ2aExXdU9rTmRWK3diMFVkdmJtMW45cDJMV2dpY25mQ2p0SjN1MmxDdXRmRGhtcmNORUVWaTJFNy84NmxDYXRNaDgwazdLS0pjMzhFbTlsT3dRYUdoNGRmWEZmZEpIcDgzYUNYL0JJL2daWGlXVXlwQTdwSU5sbUhZSE5MMlRRVmlHSFhHSVN0Tlpja28zZSs5Y24rSlBxUHorQU9NUWVjTVBQT1VaamthdWltc1VrVWdzMk9aZE1ZNEJDN3prVFlEcEt1NzlsZnZtRERSTHhMZHBXWTNCeVlIVkdFS09kYnpzZ3Bvb0NocjN3Ry9iL1NiOGJaelQ3aVZzSWs3cEFpeEhhKzVZdzlGSEJOVk1nZUVZMFlaNzBrNUM2R1VmUjhSUlh6ZGpQU04xQkFyNmxpOEJXOTFQYktOMWZVQlJvaXdWMERvelpGY3pnT21tYVhYK2RZR1V0ZGZrc1JwZ3Y1cEJtOTRoT2VQTCtyZXVXZjNsWDllbFZrakpDbUxoM0IwaGF4N1gxSlljcGhZSjN4UDFKcFdvekJwME5rcGUrRnlMaE5tcE90Q0ZiQUFqSWIrQ2ZyUzJnY1hqK0hmbzNMU2kzM3FoblNWSHVWSzZZMFBxTFpDVjFhZGVUUjB1UFZhZEE1b2t2YVZzYzNIVmtvWHZmNVBncjRXbVQ4UXBhMHJmNWdnQUpxRU1UeEljdllqQlhzTXFmRnVEY2kyZldEbmd6L3EvS3lUSHNqZ2wwWG9YNmF3a1cxUU5VU255ZEdlY3V6SVhnTE9oUWhwVDBEZnVmWGttYmdnY2o0amF6OW9qMkJkWlVJa2pHUFphU2lSR0VpckRNeU5pb2hNbHdiRmRXU2hlQlMzMUVDTHJyQU9FcVQ5Vm5zRVFBMUZQRFlKOXdnUzBPRFlxTS9KdDBHQklsbkZSdDcwTVczN3lhdlZjYVNUVXFJakx6RFNzQk1CL3lxR3hWSkp1K0k4Y2l6ZVVuQUFRcDRyUjV6MzM1SFZuN1huc0FTOStlUXpPYnZaRHdRRjhVeVBFbFdHY21lVUJteWxISUFTL2s5a3p1T0hWdkFoOVBTZ0xLTDdPNHpTOHBUSS9sS3JmQmlCc2w3USsyNFJ4WWVhQ2U0N0IrUUZBZCtlRFZmOU5XbURDR2w0OHZsWFdObHhFWm1SRWRrS2t3cEVEZUxyOEdSSG1EdSsrd2o2NGtBeXZuOStGbzNzMWMyUmlPUmRILzR0STRiWkhLdlg1emcxMGkyQXpvSDN3Tkw1ckoxNGU5U1pyWmxSa2RxSElBeE1tSWI0SmZFTjlrbEw1YW1zT3dDTUhGdC9QNE84WFlkbHo3SEplZ20zWGY5Z1ZQdnhVdGl6STI5Rk9RY2RDNytLVzREYzVSbGVFcXNNdVprQWRZWitoK1BtOG1HQzlKd25EOFZ2T0N5RzFsVEF3cDRUaEtmVG0veG13N3pzMGdZL0g2SVpBTS84dkY5UTk0L0VlQXNWWmg2TUEwS2M4SnJrZEdFVUJrWjRONWx3OE5wNHRFZGxhUzZLTXBkS1Fxdm5CVlQzdUlBUjdLK096N2RDTWtlR29lbWI0ZGRpL2k5bldDOGZFTW1aMWhrdUVKbWxBVm5YRlJNWm1IdUNXMlFISHVpS2N1VVFTOWZTQjFYYnB1My8vZGpaNndUcDFhcWNFeGhWcHN6WXJORFppQW9ZM2FtWWpJTmlGNGtEVktPVGpkbVVGL3ZGYjNqL2oyOTd4cysrZk1hQmR1RGdCT0tXV2FaS1dOaldWZ1o0amlxYjArV0p1MDlLQ1NEMno5S0hZOUo5Vno2dFUrMkhacUdGTVhNVTJMS2VHZjJCRExpK0c1WUVTOTczd3ZBVVI5NUtIT2UvbE1TeVdqZ2tUaXU1YTlYUTAvRUNmNHpHWnlDWnJWaTVVTnZXQm00Sko1ZWxxWkhGeXhmb3ZCTzFKSFp6MCswa1A1UjR1NktxcHRrZEJxcWhabUtsWlNNOERLYTFLTklTSnZ1MTROSXYrTmxJdVZkRDdzbkRwS1Y1ejdWVStKK0VCbXZ5T2h5OEFhLytEZmRBajZKRHkvRHhmWkFjb1FUVFBiaE9YNFJXTUJtQmVCYTV2UHZ4WHZKU3AvV2NVc3NqemdYQjhtb0NwcE5DaE1KWFl6WTVIUER5bkR3eVBrbERnQmw3WHg5bTdHWm40bGRZS3BUMks3SCt2MWs2YWFjOFV4dWtwMkJLa2xoNW1WQjE1bkh0MTl4V0JsdzhWcFBSM3pUWnQ2dGJBWWFHdm1OMXJtYWs1cm1pM2Z2Y2lKWitrUEtHUDFMWk53am83MVF6UkpielFHZG8xMmRoWldCZGNtS2JFRUw0SWdYQXc5cllFRXRRQ1ZaVXYvbXo2UVQvS2MrTWxoN0hrSkxwdnJna3hWNCtBcEZoNWVCWXRhcjZlRHI3VmlkSWg5T0RRQyt5Q2NMZC90RnhtdnBCSDlLUmx0cXdXbmZUcnNnU3hNL3Z5M01ETlJIYVFmRW5MWXVjTjdpRHp5SzBCalZETC9hS2hKR1g1Tm05SlphOFJWZmdGN3V4alVhOC9CYkdNMHNSYkFzUHUwVTF4YWdpMTJiSGVBYzlXeGFCblNLRjZFc21vR1F6VjhhQjg2eHNMaTBmVmw3VzBHWkU1b2VWOFRtWmN1V0hTM1J2aHdlMEg0VDd4OFpHYjdxOTJqa3ZuWnMzS1pRaXM3Q1BscUxpTG50TSt1bGtIYkRUbllUYzhjbjB6NVNvZVMyd2s3TzgrVzRZcXE0TlVRaEhYVENWcmFxLzVZbUcvejZJWVZXdFJqMmNybUM2T0ZQY3NUMUg2N1NPTnluWURlcmlvajZCZ1ordnlFTUQxeWpjWjFKaCsxc3A0bEtQQXY3U1YvanBnazVlUnAybExCdFloVmZ3SjcrdFlYZVhQNHBKMnpxazgvb1RlVis5UC93SDZvS2Q4TE8wczhWMGZqY00zSmdjNnQyMFhqVzdrbUE3U1ZzTDZSUThtZXNkMkl5eUZtWlMyTngxMzJhanNraVordStmS3VHazJjdTFHSXlTVjkxWUZjUnlmS3JQdDY3R0pOUGJldmYzNnZjVXJHaHU3dWlZdHZLbXRPVHNXSEtsQ240TDFaMUw5MW80dURmQUFBQUFFbEZUa1N1UW1DQyIvPgo8L2RlZnM+Cjwvc3ZnPgo=" alt="S7 Logo" class="ticket__logo">
+                                    </div>
+                                </div>
+                                <ul class="ticket__variant-list">
+                                    <li class="ticket__variant">
+                                        <div class="ticket__variant-part">
+                                            <div class="ticket__variant-part-label">MOW – HKT</div>
+                                            <div class="ticket__variant-part-value">10:45 – 08:00</div>
+                                        </div>
+                                        <div class="ticket__variant-part">
+                                            <div class="ticket__variant-part-label">В пути</div>
+                                            <div class="ticket__variant-part-value">21ч 15м</div>
+                                        </div>
+                                        <div class="ticket__variant-part">
+                                            <div class="ticket__variant-part-label">2 пересадки</div>
+                                            <div class="ticket__variant-part-value">HKG, JNB</div>
+                                        </div>
+                                    </li>
+                                    <li class="ticket__variant">
+                                        <div class="ticket__variant-part">
+                                                <div class="ticket__variant-part-label">MOW – HKT</div>
+                                                <div class="ticket__variant-part-value">10:45 – 08:00</div>
+                                            </div>
+                                            <div class="ticket__variant-part">
+                                                <div class="ticket__variant-part-label">В пути</div>
+                                                <div class="ticket__variant-part-value">21ч 15м</div>
+                                            </div>
+                                            <div class="ticket__variant-part">
+                                                <div class="ticket__variant-part-label">2 пересадки</div>
+                                                <div class="ticket__variant-part-value">HKG, JNB</div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </li>
+                        <li class="ticket__item">
+                                <div class="ticket__header">
+                                    <div class="ticket__price">
+                                        13 400 P
+                                    </div>
+                                    <div class="ticket__logo-container">
+                                        <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTEwIiBoZWlnaHQ9IjM2IiB2aWV3Qm94PSIwIDAgMTEwIDM2IiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4KPHJlY3Qgd2lkdGg9IjExMCIgaGVpZ2h0PSIzNiIgZmlsbD0idXJsKCNwYXR0ZXJuMCkiLz4KPGRlZnM+CjxwYXR0ZXJuIGlkPSJwYXR0ZXJuMCIgcGF0dGVybkNvbnRlbnRVbml0cz0ib2JqZWN0Qm91bmRpbmdCb3giIHdpZHRoPSIxIiBoZWlnaHQ9IjEiPgo8dXNlIHhsaW5rOmhyZWY9IiNpbWFnZTAiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAgLTAuMDU1NTU1Nikgc2NhbGUoMC4wMDUwNTA1MSAwLjAxNTQzMjEpIi8+CjwvcGF0dGVybj4KPGltYWdlIGlkPSJpbWFnZTAiIHdpZHRoPSIxOTgiIGhlaWdodD0iNzIiIHhsaW5rOmhyZWY9ImRhdGE6aW1hZ2UvcG5nO2Jhc2U2NCxpVkJPUncwS0dnb0FBQUFOU1VoRVVnQUFBTVlBQUFCSUNBTUFBQUNhLzNySEFBQUNURkJNVkVVQUFBQnlkM3B5ZDNweWQzcHlkM3B5ZDNweWQzcHlkM3B5ZDNweWQzcTYwektkcjFGeWQzcHlkM3B5ZDNweWQzcTYwekp5ZDNweWQzcTYweks2MHpKeWQzcHlkM3B5ZDNweWQzcHlkM3B5ZDNweWQzcHlkM3B5ZDNxNjB6SzYwekp5ZDNweWQzcHlkM3B5ZDNweWQzcHlkM3B5ZDNxNjB6SzYwekp5ZDNxNjB6SnlkM3B5ZDNweWQzcHlkM3E2MHpLNjB6SnlkM3B5ZDNweWQzcHlkM3B5ZDNweWQzcTYweks2MHpLNjB6SnlkM3B5ZDNweWQzcTYwekp5ZDNxNjB6SzYweks2MHpKeWQzcHlkM3B5ZDNweWQzcHlkM3B5ZDNweWQzcHlkM3B5ZDNxNjB6SzYwekp5ZDNxNjB6SzYweks2MHpKeWQzcTYweks2MHpKeWQzcHlkM3B5ZDNweWQzcHlkM3B5ZDNweWQzcHlkM3E2MHpLNjB6SzYweks2MHpLNjB6SzYweks2MHpLNjB6SzYweks2MHpLNjB6SzYweks2MHpLNjB6SnlkM3B5ZDNweWQzcHlkM3B5ZDNweWQzcHlkM3B5ZDNweWQzcTYweks2MHpKeWQzcTYweks2MHpLNjB6SzYweks2MHpLNjB6SnlkM3E2MHpKeWQzcHlkM3E2MHpLNjB6SzYweks2MHpLNjB6SzYweks2MHpLNjB6SnlkM3E2MHpLNjB6SzYweks2MHpLNjB6SzYwekp5ZDNyLy8vL2M2WmE3MURUKy92bSsxanovLy82OTFUclg1b1hxOHNEQTEwSDcvZkhPNEd5ODFUZnorTnZhNkpIeDl0UGU2cHJKM1Z2ajdhclI0bmJIM0ZmNi9PNzArTjdNMzJiazdxM0Yyay96OTluVDQzM2E1NDdnNjZIdzljL0MyRWpQNFcvQjEwVHA4YnZ1OU1qOC9mWDUrK3pHMjFYVjVJRG44TGY0Kytuczg4VEYybEhoN0tURDJVckszbURTNDNybTc3SDMrdWIyK2VQWTVvbEdZTHNDQUFBQWpuUlNUbE1BeFcxN3B4QUVMM0xydHdHMUFwS2hDdUExMmY3K0VvWTcvUWI1Und4eEJETG5KT2tLR3ZVZDYrLzdWL0xZSGVqdVhtS1Q1Uk5CRk0rYzFTYTAzMDFnQjdzcmpqajNnN3NwSDNpRU9Kc2lvZlJwTE56TWl1T3YwTTRpbjhGMXNHdFZRTWVUZm1QVitJbU50OWxUbHFzV2RzaS84VnB4TStTa0YyWW9DVVhldzFHcUVVNnJEUTlLcEVzeWVoQXhlUDZHSkFBQUI1MUpSRUZVZUY3dDJtZFhGTmthaHVGSHdBWnNRYWJwZHFDQklTaVNWSklncUVRQllWUk1neURtbkVWSGp4aFFKenB6MGx0TkRPYWM0K1Njemg4N3ZmZXU2dHBkVlRTeStpeFhjUmJYbDFyclhXM2gzYnQzN2NZbEptVEtsQ25PbkozbkRtN2JVcEZZVVRGanpkWWQ1eE1tWThQNlBYV0ZKTnUvcjNMSFpVd3FpL2Z1Mms5bTdzTEtWZW1USjJKck40MGxmOXRPSnlhRDJwb3FONFd3LytOVzJOLzZPamVObytpOVd0aWJjMGNoalMvL3M3T3dzOXJkK2ZSR3FsYkJ2aExXdU9rTmRWK3diMFVkdmJtMW45cDJMV2dpY25mQ2p0SjN1MmxDdXRmRGhtcmNORUVWaTJFNy84NmxDYXRNaDgwazdLS0pjMzhFbTlsT3dRYUdoNGRmWEZmZEpIcDgzYUNYL0JJL2daWGlXVXlwQTdwSU5sbUhZSE5MMlRRVmlHSFhHSVN0Tlpja28zZSs5Y24rSlBxUHorQU9NUWVjTVBQT1VaamthdWltc1VrVWdzMk9aZE1ZNEJDN3prVFlEcEt1NzlsZnZtRERSTHhMZHBXWTNCeVlIVkdFS09kYnpzZ3Bvb0NocjN3Ry9iL1NiOGJaelQ3aVZzSWs3cEFpeEhhKzVZdzlGSEJOVk1nZUVZMFlaNzBrNUM2R1VmUjhSUlh6ZGpQU04xQkFyNmxpOEJXOTFQYktOMWZVQlJvaXdWMERvelpGY3pnT21tYVhYK2RZR1V0ZGZrc1JwZ3Y1cEJtOTRoT2VQTCtyZXVXZjNsWDllbFZrakpDbUxoM0IwaGF4N1gxSlljcGhZSjN4UDFKcFdvekJwME5rcGUrRnlMaE5tcE90Q0ZiQUFqSWIrQ2ZyUzJnY1hqK0hmbzNMU2kzM3FoblNWSHVWSzZZMFBxTFpDVjFhZGVUUjB1UFZhZEE1b2t2YVZzYzNIVmtvWHZmNVBncjRXbVQ4UXBhMHJmNWdnQUpxRU1UeEljdllqQlhzTXFmRnVEY2kyZldEbmd6L3EvS3lUSHNqZ2wwWG9YNmF3a1cxUU5VU255ZEdlY3V6SVhnTE9oUWhwVDBEZnVmWGttYmdnY2o0amF6OW9qMkJkWlVJa2pHUFphU2lSR0VpckRNeU5pb2hNbHdiRmRXU2hlQlMzMUVDTHJyQU9FcVQ5Vm5zRVFBMUZQRFlKOXdnUzBPRFlxTS9KdDBHQklsbkZSdDcwTVczN3lhdlZjYVNUVXFJakx6RFNzQk1CL3lxR3hWSkp1K0k4Y2l6ZVVuQUFRcDRyUjV6MzM1SFZuN1huc0FTOStlUXpPYnZaRHdRRjhVeVBFbFdHY21lVUJteWxISUFTL2s5a3p1T0hWdkFoOVBTZ0xLTDdPNHpTOHBUSS9sS3JmQmlCc2w3USsyNFJ4WWVhQ2U0N0IrUUZBZCtlRFZmOU5XbURDR2w0OHZsWFdObHhFWm1SRWRrS2t3cEVEZUxyOEdSSG1EdSsrd2o2NGtBeXZuOStGbzNzMWMyUmlPUmRILzR0STRiWkhLdlg1emcxMGkyQXpvSDN3Tkw1ckoxNGU5U1pyWmxSa2RxSElBeE1tSWI0SmZFTjlrbEw1YW1zT3dDTUhGdC9QNE84WFlkbHo3SEplZ20zWGY5Z1ZQdnhVdGl6STI5Rk9RY2RDNytLVzREYzVSbGVFcXNNdVprQWRZWitoK1BtOG1HQzlKd25EOFZ2T0N5RzFsVEF3cDRUaEtmVG0veG13N3pzMGdZL0g2SVpBTS84dkY5UTk0L0VlQXNWWmg2TUEwS2M4SnJrZEdFVUJrWjRONWx3OE5wNHRFZGxhUzZLTXBkS1Fxdm5CVlQzdUlBUjdLK096N2RDTWtlR29lbWI0ZGRpL2k5bldDOGZFTW1aMWhrdUVKbWxBVm5YRlJNWm1IdUNXMlFISHVpS2N1VVFTOWZTQjFYYnB1My8vZGpaNndUcDFhcWNFeGhWcHN6WXJORFppQW9ZM2FtWWpJTmlGNGtEVktPVGpkbVVGL3ZGYjNqL2oyOTd4cysrZk1hQmR1RGdCT0tXV2FaS1dOaldWZ1o0amlxYjArV0p1MDlLQ1NEMno5S0hZOUo5Vno2dFUrMkhacUdGTVhNVTJMS2VHZjJCRExpK0c1WUVTOTczd3ZBVVI5NUtIT2UvbE1TeVdqZ2tUaXU1YTlYUTAvRUNmNHpHWnlDWnJWaTVVTnZXQm00Sko1ZWxxWkhGeXhmb3ZCTzFKSFp6MCswa1A1UjR1NktxcHRrZEJxcWhabUtsWlNNOERLYTFLTklTSnZ1MTROSXYrTmxJdVZkRDdzbkRwS1Y1ejdWVStKK0VCbXZ5T2h5OEFhLytEZmRBajZKRHkvRHhmWkFjb1FUVFBiaE9YNFJXTUJtQmVCYTV2UHZ4WHZKU3AvV2NVc3NqemdYQjhtb0NwcE5DaE1KWFl6WTVIUER5bkR3eVBrbERnQmw3WHg5bTdHWm40bGRZS3BUMks3SCt2MWs2YWFjOFV4dWtwMkJLa2xoNW1WQjE1bkh0MTl4V0JsdzhWcFBSM3pUWnQ2dGJBWWFHdm1OMXJtYWs1cm1pM2Z2Y2lKWitrUEtHUDFMWk53am83MVF6UkpielFHZG8xMmRoWldCZGNtS2JFRUw0SWdYQXc5cllFRXRRQ1ZaVXYvbXo2UVQvS2MrTWxoN0hrSkxwdnJna3hWNCtBcEZoNWVCWXRhcjZlRHI3VmlkSWg5T0RRQyt5Q2NMZC90RnhtdnBCSDlLUmx0cXdXbmZUcnNnU3hNL3Z5M01ETlJIYVFmRW5MWXVjTjdpRHp5SzBCalZETC9hS2hKR1g1Tm05SlphOFJWZmdGN3V4alVhOC9CYkdNMHNSYkFzUHUwVTF4YWdpMTJiSGVBYzlXeGFCblNLRjZFc21vR1F6VjhhQjg2eHNMaTBmVmw3VzBHWkU1b2VWOFRtWmN1V0hTM1J2aHdlMEg0VDd4OFpHYjdxOTJqa3ZuWnMzS1pRaXM3Q1BscUxpTG50TSt1bGtIYkRUbllUYzhjbjB6NVNvZVMyd2s3TzgrVzRZcXE0TlVRaEhYVENWcmFxLzVZbUcvejZJWVZXdFJqMmNybUM2T0ZQY3NUMUg2N1NPTnluWURlcmlvajZCZ1ordnlFTUQxeWpjWjFKaCsxc3A0bEtQQXY3U1YvanBnazVlUnAybExCdFloVmZ3SjcrdFlYZVhQNHBKMnpxazgvb1RlVis5UC93SDZvS2Q4TE8wczhWMGZqY00zSmdjNnQyMFhqVzdrbUE3U1ZzTDZSUThtZXNkMkl5eUZtWlMyTngxMzJhanNraVordStmS3VHazJjdTFHSXlTVjkxWUZjUnlmS3JQdDY3R0pOUGJldmYzNnZjVXJHaHU3dWlZdHZLbXRPVHNXSEtsQ240TDFaMUw5MW80dURmQUFBQUFFbEZUa1N1UW1DQyIvPgo8L2RlZnM+Cjwvc3ZnPgo=" alt="S7 Logo" class="ticket__logo">
+                                    </div>
+                                </div>
+                                <ul class="ticket__variant-list">
+                                    <li class="ticket__variant">
+                                        <div class="ticket__variant-part">
+                                            <div class="ticket__variant-part-label">MOW – HKT</div>
+                                            <div class="ticket__variant-part-value">10:45 – 08:00</div>
+                                        </div>
+                                        <div class="ticket__variant-part">
+                                            <div class="ticket__variant-part-label">В пути</div>
+                                            <div class="ticket__variant-part-value">21ч 15м</div>
+                                        </div>
+                                        <div class="ticket__variant-part">
+                                            <div class="ticket__variant-part-label">2 пересадки</div>
+                                            <div class="ticket__variant-part-value">HKG, JNB</div>
+                                        </div>
+                                    </li>
+                                    <li class="ticket__variant">
+                                        <div class="ticket__variant-part">
+                                                <div class="ticket__variant-part-label">MOW – HKT</div>
+                                                <div class="ticket__variant-part-value">10:45 – 08:00</div>
+                                            </div>
+                                            <div class="ticket__variant-part">
+                                                <div class="ticket__variant-part-label">В пути</div>
+                                                <div class="ticket__variant-part-value">21ч 15м</div>
+                                            </div>
+                                            <div class="ticket__variant-part">
+                                                <div class="ticket__variant-part-label">2 пересадки</div>
+                                                <div class="ticket__variant-part-value">HKG, JNB</div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </li>
+                </ul>
+             
+            </div>
+        </div>
+       
+        
+    </div>
+</body>
+</html>
+
+
+   
